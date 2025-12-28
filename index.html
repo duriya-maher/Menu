@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Product List with Cart</title>
+</head>
+
+<body>
+  <main class="main">
+    <section class="desserts">
+      <h1 class="head-name">Desserts</h1>
+      <div class="desserts-grid"></div>
+    </section>
+    <aside class="cart"></aside>
+  </main>
+
+  <!-- Order Confirmation Modal -->
+  <div class="order-confirmation hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="assets/images/icon-order-confirmed.svg" alt="confirmed" class="confirm-icon" />
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoy your food!</p>
+      </div>
+
+      <div class="order-items"></div>
+
+      <div class="order-total">
+        <p>Order Total</p>
+        <h3 class="modal-total">$0.00</h3>
+      </div>
+
+      <button class="new-order-btn">Start New Order</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
