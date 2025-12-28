@@ -5,8 +5,7 @@ A responsive menu interface built with **HTML, CSS, and JavaScript** — featuri
 ---
 
 ## 🚀 Live Demo
-https://kaleidoscopic-granita-e41047.netlify.app/
-
+https://menu-by-duriya.netlify.app/
 ---
 
 ## 📌 Features
